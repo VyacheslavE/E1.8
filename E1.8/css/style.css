@@ -1,0 +1,61 @@
+.header{
+	background-color: #101010;
+	overflow:hidden;
+	height:80px;
+	padding: 0px 0px 0px 20px;
+
+}
+.inner-header div{
+	display:inline-block;
+	position: absolute;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 10px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+h1 {
+color: white;
+}
+
+#main_pict{
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+
+.content{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+
+.inner-content div{
+	 display: table-cell;
+ vertical-align: middle;
+	padding: 0px 10px;
+
+}
